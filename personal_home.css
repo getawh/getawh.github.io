@@ -446,10 +446,8 @@ footer p strong{
         margin: 2rem auto;
         flex-direction: column;
     }
-    .image-wraper{
-        width: 380px;
-        height: auto;
-        overflow:hidden ;
+    .image-container img{
+        border-radius: 0%;
     }
     .image button img{
         height: 1rem;
