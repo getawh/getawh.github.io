@@ -171,12 +171,13 @@ h1{
 }
 .slider button{
 
-    border-style: none;
+    
    /* background-color: rgba(0, 0, 0, .2); */
    color: transparent;
    padding: 0 10px;
    margin-top: 2vh;
    border-radius: 5px;
+    border-style: none;
    cursor: pointer;
    outline: none;
 }
@@ -404,7 +405,7 @@ footer p strong{
 }
 
 
-@media (max-width: 1500px) {
+@media (max-width: 500px) {
     header{
         margin-top: 2vh;
         width: 100vw;
