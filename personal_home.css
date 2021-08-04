@@ -405,7 +405,7 @@ footer p strong{
 }
 
 
-@media (max-width: 641px) {
+@media (max-width: 1007px) {
     header{
         margin-top: 2vh;
         width: 100vw;
