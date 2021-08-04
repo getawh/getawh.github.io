@@ -538,6 +538,9 @@ footer p strong{
         font-size: 1rem;
         margin: 0;
     }
+    .first-comment{
+        overflow:hidden;
+    }
     .first-comment p{
         font-size: .7rem;
         margin-right: 1rem;
@@ -559,6 +562,11 @@ footer p strong{
     }
     .comment-form textarea{
         height: 15vh;
+    }
+    .comment-form .submit{
+        height: 1.5rem;
+        width: 40%;
+        font-size: .7rem;
     }
     footer .icons {
         width: 30%;
