@@ -169,17 +169,17 @@ h1{
     justify-content: space-around;
 
 }
-.slider button{
 
-    
-   /* background-color: rgba(0, 0, 0, .2); */
-   color: transparent;
+.slider button{
+   background-color: #000;
    padding: 0 10px;
    margin-top: 2vh;
    border-radius: 5px;
-    border-style: none;
+   border-style: none;
    cursor: pointer;
    outline: none;
+    font-size: 1rem;
+    color:#FFF;
 }
 h2{
     text-align: center;
