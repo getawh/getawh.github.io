@@ -447,7 +447,7 @@ footer p strong{
         flex-direction: column;
     }
     .image-container img{
-        border-radius: 0%;
+        border-radius: 0px;
     }
     .image button img{
         height: 1rem;
