@@ -74,8 +74,7 @@ function addComment(){
     <span class="comments">${name}</span>
     <p>${string}</p>
     `
-    // commentList.appendChild(comm)
-    // nameBox.target = ''
+    commentList.appendChild(comm)
 }
 
 //==================================
