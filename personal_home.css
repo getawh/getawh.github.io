@@ -117,10 +117,13 @@ h1{
     padding: 2px 2rem;
     
 }
-
+/* .social img{
+    height: 30px;
+    width: 30px;
+} */
 .link{
     width: 30vw;
-    height: 20vh;
+    height: fit-content;
     
 }
 .about{
@@ -189,11 +192,16 @@ h2{
     width: 40%;
     text-align: center;
 }
+
 .passion-container{
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin-top: 3rem;
+}
+.passion-container img{
+    height: 80px;
+    width: 80px;
 }
 .passion-container div{
     padding: 1rem 2rem;
@@ -396,7 +404,7 @@ footer p strong{
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 1220px) {
     header{
         margin-top: 2vh;
         width: 100vw;
@@ -441,7 +449,7 @@ footer p strong{
     .image-wraper{
         width: 380px;
         height: auto;
-        overflow: hidden;
+        overflow:hidden ;
     }
     .image button img{
         height: 1rem;
@@ -451,6 +459,7 @@ footer p strong{
     .image button{
         height: 1.3rem;
         width: 2.5rem;
+        border-style: none;
     }
     .info-container{
         max-width: 100%;
@@ -459,19 +468,58 @@ footer p strong{
     .info-container p{
         font-size: .7rem;
     }
+    .passion{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .passion-container{
+        font-size: .5rem;       
+        text-align: center; 
+        margin-top: 10%;
+        margin-left: 0;
+    }
+    .passion-container div{
+        width: 30%;
+        height: 30%;
+        text-align: center;
+        border-width: 4px;
+        border-radius: 0%;
+        padding: 0;
+        margin: 0;
+        border-style: none;
+        border-right-style: solid;
+    }
+    .passion-container div.game{
+        border-right-style: none;
+    }
+
+    .passion-container img{
+        height: 40px;
+        width: 40px;
+    }
     .contact{
         margin: 2rem auto;
         width: 90%;
     }
+    .social img{
+    height: 20px;
+    width: 20px;
+}
     .link{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         flex: 1;
+        height: fit-content;
+    }
+    .qr{
+        flex: 1;
+        text-align: center;
     }
     .social{
         display: flex;
         justify-content: space-between;
+        font-size: .7rem;
     }
     .commenting{
         display: flex;
@@ -501,7 +549,7 @@ footer p strong{
         height: 15vh;
     }
     footer .icons {
-        background-color: lemonchiffon;
+        width: 30%;
     }
     footer p{
         font-size: .7rem;

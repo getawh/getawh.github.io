@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal site</title>
+    <link rel="stylesheet" href="personal_home.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <header>
+        <div class="navigation" id = "navigation">
+
+            <span class="logo">GHAB</span>
+            <ul class="nav">
+                <li><a href="#home" class="nav-link" >Home</a></li>
+                <li><a href="#about" class="nav-link" >About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </header>
+    </div>
+        <main>
+            <section class="intro" id="home">
+
+                    <img src="./picture/reading.jpg" alt="central" height="700vh" width="100%">
+                    
+                
+                    <p>WANT TO KNOW MORE ABOUT ME? GO TO <a href="#about" id="more">ABOUT</a></p>
+                </section>
+                <hr>
+                <h2 class="about-me"  id ="about">About me</h2>
+                <section class="all-about">
+                    <div class="about">
+
+                        <div class="image">
+                            <div class="image-wraper">
+                                
+                                <div class="image-container" id="images">
+                                    <img src="./picture/park.jpg" alt="" width = "400" height = "300">
+                                    <img src="./picture/group.jpg" alt="" width = "400" height = "300">
+                                    <img src="./picture/felege.jpg" alt="" width = "400" height = "300">
+                                    <img src="./picture/etcpc.png" alt="" width = "400" height = "300">
+                                    <img src="./picture/reading.jpg" alt="" width = "400" height = "300">
+                                </div>
+                            </div>
+                            <div class="slider">
+                                <button id="left" onclick="changeReverse()"><img src="./picture/angle-double-left.svg" alt="" height="30px" width="30px"></button>
+                                <button id="right" onclick="change()"><img src="./picture/angle-double-right.svg" alt="" height="30px" width="30px"></button>
+                                
+                            </div>
+                        </div>
+                        <div class="info-container">
+                            <p class="bio">
+                                My name is Getaw Habtamu. I was born in Addis Ababa on December 22 1999 around Kechene. and when I turn 4 I get into Mamush KG school and learn for 2 years and passed to grade 1. I learned elementary in Adis Birhan primary school which was near from my home. i finished grade 8 by getting 86.5 percentile ministry result. and i went to Debreselam secondary school around Kechene Medhanealem orthoox church. I finished my secondary school with matric result of 3.43 and I went to my favorite school Medhanealem preparatory school. it was fun and unforgettable there. and i felt these 2 years like 2 months, they passed fast. i finished my lower education there with entrance result of 431 points. I applied and selected for ASTU. Now i am 3rd year CSE student at ASTU. I have high passion of being programmer. i have one big brother who of course have big attribute for me being here. he is studying Medicine at Hawassa University.
+                            </p>
+                        </div>
+                    </div>
+                        <div class="passion">
+                            <h2>My passions</h2>
+                            <div class="passion-container">
+                                <div class="photography">
+                                    <img src="./picture/camera.svg" alt="" >
+                                    <p>photography</p>
+                                </div>
+                                <div class="programming">
+                                    <img src="./picture/code.svg" alt="">
+                                    <p>Programming</p>
+                                </div>
+                                <div class="game">
+                                    <img src="./picture/gamepad.svg" alt="">
+                                    <p>Gaming</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                </section>
+                <hr>
+                <h2  id = "contact">Contact me</h2>
+                <section class="contact">
+                        <div class="link">
+                            <div class="social">
+                                <a href="https://www.instagram.com/getaw_h/"><img src="./picture/instagram.svg" alt="" height="30px" width="30px"></a>
+                                <p>@getaw_h</p>
+                            </div>
+                            <div class="social">
+                                <a href="https://t.me/g_h_a_b/"><img src="./picture/telegram.svg" height="30px" width="30px"></a>
+                                <p>@g_h_a_b</p>
+
+                            </div>
+                            <div class="social">
+                                <a href="https://github.com/getawh"><img src="./picture/github.svg" alt="" height="30px" width="30px"></a>
+                                <p>@getawh</p>
+
+                            </div>
+                            <div class="social">
+                                <a href="https://www.linkedin.com/in/getaw-habtamu-393898182/"><img src="./picture/linkedin.svg" alt="" height="30px" width="30px"></a>
+                                <p>getaw-<br>habtamu</p>
+
+                            </div>  
+                            <div class="social">
+                                <img src="./picture/bookmark.svg" alt="" width = "30" height = "30">
+                                <p>UGR/17157/11</p>
+
+                            </div>
+
+                        </div>
+                        <div class="qr">
+                            <img src="./picture/qr.png" alt=""height="100" width="100"><br>
+                            <p class="qr info">or scan this</p>
+                        </div>
+                        </section>
+                        <section class="comment">
+                                <p class="comm">Or you can leave me a comment!</p>
+                                
+                                <div class="commenting">
+                                    <div class="comment-container" id ="commenter">
+                                        <div class="comment-top">
+                                                <p>comments</p>
+                                            </div>
+                                        <div class="comment-list" id="comment-list">
+    
+                                        </div>
+                                        </div>
+                                    <div class="comment-form" id="comment-form">
+                                        <input type="text" name="name" id="name" placeholder="Name" required><br>
+                                        <input type="text" name="section" id="section" placeholder="Section" required><br>
+                                        <input type="email" name="email" id="email" placeholder="Email" required><br>
+                                        <textarea name="comment" id="comment-text" cols="30" rows="10" placeholder = "Put your comment here" required ></textarea>
+                                        <button class="submit" id="submit" value="Comment" onclick="validate()">Comment</button>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                    
+
+                </section>
+                <footer>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/getaw_h/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/g_h_a_b/"><i class="fab fa-telegram"></i></a>
+                        <a href="https://github.com/getawh"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/getaw-habtamu-393898182/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="copyright">
+                        <p> <strong > GHAB<sup>©</sup></strong><br> copyright reserved<br>2021</p>
+                    </div>
+                </footer>
+        </main>
+
+        <script src="personal.js" ></script>
+    </body>
+</html>
